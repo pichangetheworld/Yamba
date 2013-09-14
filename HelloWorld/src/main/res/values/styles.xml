@@ -1,0 +1,56 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="yambaText" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="yambaText.title">
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">64sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="yambaText.count">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/status_color</item>
+    </style>
+
+    <style name="yambaText.button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/fog</item>
+        <!--<item name="android:background">@drawable/twitterbird</item>-->
+    </style>
+
+    <style name="yambaEditText">
+        <item name="android:inputType">textMultiLine</item>
+        <item name="android:gravity">top</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:background">@drawable/twitterbird</item>
+        <item name="android:layout_margin">16dp</item>
+    </style>
+
+    <style name="yambaTimeline">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+</resources>

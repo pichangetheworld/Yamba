@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="blue">#ff1b00ff</color>
+    <color name="fog">#ff645d64</color>
+
+    <color name="status_color">#ff00ae28</color>
+    <color name="warn_color">#fff88d00</color>
+    <color name="err_color">#ffff0c16</color>
+
+</resources>

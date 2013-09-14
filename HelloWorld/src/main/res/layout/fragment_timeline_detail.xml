@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:id="@+id/timeline_details">
+
+
+    <TextView
+            style="@style/yambaTimeline"
+            android:id="@+id/timeline_detail_user"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+
+    <TextView
+            style="@style/yambaTimeline"
+            android:id="@+id/timeline_detail_status"
+            android:textColor="@color/blue"
+            android:textSize="32sp"
+            />
+
+    <TextView
+            style="@style/yambaTimeline"
+            android:id="@+id/timeline_detail_time"
+            />
+
+</LinearLayout>
